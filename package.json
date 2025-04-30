@@ -2,7 +2,7 @@
   "name": "@prograpedia/next-server-timing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "commonjs",
   "description": "A lightweight library for Next.js applications that adds Server-Timing headers to HTTP responses. Enables performance monitoring of server operations with precise timing metrics, helping developers identify bottlenecks and optimize application performance.",
   "keywords": [
@@ -17,7 +17,9 @@
     "next": "^15.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.15.3"
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2"
   },
   "exports": {
     ".": {
