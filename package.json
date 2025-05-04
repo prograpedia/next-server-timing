@@ -2,7 +2,7 @@
   "name": "@prograpedia/next-server-timing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "commonjs",
   "description": "A lightweight library for Next.js applications that adds Server-Timing headers to HTTP responses. Enables performance monitoring of server operations with precise timing metrics, helping developers identify bottlenecks and optimize application performance.",
   "keywords": [
@@ -13,6 +13,10 @@
     "monitoring"
   ],
   "author": "Cristian Torres <cris.torres15@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prograpedia/next-server-timing"
+  },
   "peerDependencies": {
     "next": "^15.3.1"
   },
